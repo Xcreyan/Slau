@@ -50,9 +50,9 @@ namespace Slau
             double u1 = u1_1 * x1 + u1_2 * x1 + u1_3 * x1;
             double u2 = u2_2 * x2 + u2_3 * x2;
             double u3 = u3_3 * x3;
-            listBox1.Items.Add($"x1={x1}");
-            listBox1.Items.Add($"x2={x2}");
-            listBox1.Items.Add($"x3={x3}");
+            listBox1.Items.Add($"x1={u1}");
+            listBox1.Items.Add($"x2={u2}");
+            listBox1.Items.Add($"x3={u3}");
         }
     }
 }
